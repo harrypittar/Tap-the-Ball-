@@ -1,2 +1,0 @@
-Target dependency graph (1 target)
-Tap the Ball! iOS in Tap the Ball!
