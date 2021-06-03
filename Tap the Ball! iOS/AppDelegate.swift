@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Tap the Ball! iOS
 //
-//  Created by Harry Pittar on 25/05/21.
+//  Created by Harry Pittar, Lauren Eddington, Trent Lim, Hannah O'Connor on 25/05/21.
 //
 
 import UIKit
