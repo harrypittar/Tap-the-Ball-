@@ -213,6 +213,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class UIApplication;
 @class NSNumber;
 
+/// Class AppDelegate, for handling application-level events, such as app launch
 SWIFT_CLASS("_TtC13Tap_the_Ball_11AppDelegate")
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 /// Sets a variable window within UIWindow
@@ -264,6 +265,7 @@ SWIFT_CLASS("_TtC13Tap_the_Ball_9GameScene")
 @class NSString;
 @class NSBundle;
 
+/// Initializes the entire view that the game will be maintained in
 SWIFT_CLASS("_TtC13Tap_the_Ball_18GameViewController")
 @interface GameViewController : UIViewController
 /// Calls viewDidLoad function

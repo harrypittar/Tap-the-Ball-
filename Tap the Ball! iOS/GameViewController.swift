@@ -9,7 +9,7 @@
 import UIKit
 import SpriteKit
 import GameplayKit
-
+/// Initializes the entire view that the game will be maintained in
 class GameViewController: UIViewController {
 
     /// Calls viewDidLoad function

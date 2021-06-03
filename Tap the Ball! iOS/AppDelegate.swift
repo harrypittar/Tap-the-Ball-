@@ -7,7 +7,9 @@
 //
 import UIKit
 
+/// Class AppDelegate, for handling application-level events, such as app launch
 @UIApplicationMain
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     /// Sets a variable window within UIWindow
