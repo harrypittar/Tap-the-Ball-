@@ -1,0 +1,54 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/harrypittar/Desktop/COSC345 Project/Tap the Ball!/Tap the Ball! iOS/AppDelegate.swift",
+      "line": 11,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/harrypittar/Desktop/COSC345 Project/Tap the Ball!/Tap the Ball! iOS/GameViewController.swift",
+      "line": 12,
+      "symbol": "GameViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/harrypittar/Desktop/COSC345 Project/Tap the Ball!/Tap the Ball! iOS/GameViewController.swift",
+      "line": 14,
+      "symbol": "GameViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/harrypittar/Desktop/COSC345 Project/Tap the Ball!/Tap the Ball! iOS/GameViewController.swift",
+      "line": 38,
+      "symbol": "GameViewController.shouldAutorotate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/harrypittar/Desktop/COSC345 Project/Tap the Ball!/Tap the Ball! iOS/GameViewController.swift",
+      "line": 44,
+      "symbol": "GameViewController.supportedInterfaceOrientations",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/harrypittar/Desktop/COSC345 Project/Tap the Ball!/Tap the Ball! iOS/GameViewController.swift",
+      "line": 52,
+      "symbol": "GameViewController.didReceiveMemoryWarning()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/harrypittar/Desktop/COSC345 Project/Tap the Ball!/Tap the Ball! iOS/GameViewController.swift",
+      "line": 57,
+      "symbol": "GameViewController.prefersStatusBarHidden",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/harrypittar/Desktop/COSC345 Project/Tap the Ball!"
+}
