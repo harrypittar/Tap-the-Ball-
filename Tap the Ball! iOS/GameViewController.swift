@@ -11,20 +11,21 @@ import GameplayKit
 
 class GameViewController: UIViewController {
 
+    /// Calls viewDidLoad function
     override func viewDidLoad() {
         super.viewDidLoad()
         
 
-        
+        ///Load the SKScene from 'GameScene.sks'
         if let view = self.view as! SKView? {
-            // Load the SKScene from 'GameScene.sks'
+            
             if let scene = GameScene(fileNamed: "GameScene") {
-                // Set the scale mode to scale to fit the window
+                /// Set the scale mode to scale to fit the window
                 scene.scaleMode = .aspectFill
                 
                 scene.size = view.bounds.size
                 
-                // Present the scene
+                /// Present the scene
                 view.presentScene(scene)
             }
             
@@ -35,12 +36,13 @@ class GameViewController: UIViewController {
         }
     }
 
+    ///
     override var shouldAutorotate: Bool {
         return true
     }
     
     
-
+    /// Sets all orientations of the screen to rotate left or right.
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         if UIDevice.current.userInterfaceIdiom == .phone {
             return .allButUpsideDown
@@ -48,12 +50,12 @@ class GameViewController: UIViewController {
             return .all
         }
     }
-
+    /// Release any cached data, images, etc that aren't in use. **/
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Release any cached data, images, etc that aren't in use.
+        
     }
-
+    /// Hides status bar
     override var prefersStatusBarHidden: Bool {
         return true
     }
